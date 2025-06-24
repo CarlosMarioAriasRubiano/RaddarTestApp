@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using RaddarTestApp.Infrastructure.Context;
 
@@ -11,9 +12,11 @@ using RaddarTestApp.Infrastructure.Context;
 namespace RaddarTestApp.Infrastructure.Migrations
 {
     [DbContext(typeof(PersistenceContext))]
-    partial class PersistenceContextModelSnapshot : ModelSnapshot
+    [Migration("20250624202459_ModifyUserFieldsNull")]
+    partial class ModifyUserFieldsNull
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
