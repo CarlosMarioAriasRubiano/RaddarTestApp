@@ -123,6 +123,9 @@
   <data name="DontExistsUserToken" xml:space="preserve">
     <value>El usuario no existe.</value>
   </data>
+  <data name="FieldEmpty" xml:space="preserve">
+    <value>El campo {0} no puede estar vacío.</value>
+  </data>
   <data name="InputToken" xml:space="preserve">
     <value>Ingrese token.</value>
   </data>
@@ -132,6 +135,9 @@
   <data name="InvalidToken" xml:space="preserve">
     <value>Token no válido.</value>
   </data>
+  <data name="NotMatchPassword" xml:space="preserve">
+    <value>Las contraseñas no son iguales.</value>
+  </data>
   <data name="ObjectNull" xml:space="preserve">
     <value>El objeto {0} no puede ser nulo.</value>
   </data>
@@ -140,6 +146,12 @@
   </data>
   <data name="StockGreatherThanZero" xml:space="preserve">
     <value>El valor del Stock debe ser  mayor a 0.</value>
+  </data>
+  <data name="UserExistsWithEmail" xml:space="preserve">
+    <value>Ya existe un usuario con el Email.</value>
+  </data>
+  <data name="UserExistsWithUserName" xml:space="preserve">
+    <value>Ya existe un usuario con el UserName.</value>
   </data>
   <data name="UserOrPassEmpty" xml:space="preserve">
     <value>Usuario o Contraseña vacío.</value>

@@ -21,5 +21,13 @@ namespace RaddarTestApp.Domain.Helpers
                 throw new AppException(MessagesExceptions.InvalidId);
             }
         }
+
+        public static void ValidateIsNullOrEmpty(this string value, string field)
+        {
+            if (string.IsNullOrEmpty(value))
+            {
+                throw new AppException(string.Format(MessagesExceptions.FieldEmpty, field));
+            }
+        }
     }
 }

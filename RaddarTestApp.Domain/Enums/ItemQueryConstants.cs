@@ -11,6 +11,8 @@ namespace RaddarTestApp.Domain.Enums
         [Description("GetUserByUserName")]
         GetUserByUserName,
         [Description("GetUserByUserNameAndPassword")]
-        GetUserByUserNameAndPassword
+        GetUserByUserNameAndPassword,
+        [Description("GetUserByEmail")]
+        GetUserByEmail
     }
 }

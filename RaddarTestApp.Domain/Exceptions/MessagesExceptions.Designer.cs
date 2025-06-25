@@ -79,6 +79,15 @@ namespace RaddarTestApp.Domain.Exceptions {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to El campo {0} no puede estar vacío..
+        /// </summary>
+        public static string FieldEmpty {
+            get {
+                return ResourceManager.GetString("FieldEmpty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Ingrese token..
         /// </summary>
         public static string InputToken {
@@ -106,6 +115,15 @@ namespace RaddarTestApp.Domain.Exceptions {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Las contraseñas no son iguales..
+        /// </summary>
+        public static string NotMatchPassword {
+            get {
+                return ResourceManager.GetString("NotMatchPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to El objeto {0} no puede ser nulo..
         /// </summary>
         public static string ObjectNull {
@@ -129,6 +147,24 @@ namespace RaddarTestApp.Domain.Exceptions {
         public static string StockGreatherThanZero {
             get {
                 return ResourceManager.GetString("StockGreatherThanZero", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ya existe un usuario con el Email..
+        /// </summary>
+        public static string UserExistsWithEmail {
+            get {
+                return ResourceManager.GetString("UserExistsWithEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ya existe un usuario con el UserName..
+        /// </summary>
+        public static string UserExistsWithUserName {
+            get {
+                return ResourceManager.GetString("UserExistsWithUserName", resourceCulture);
             }
         }
         

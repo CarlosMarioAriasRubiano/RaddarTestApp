@@ -79,6 +79,15 @@ namespace RaddarTestApp.Infrastructure.Constants {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to SELECT * FROM [User] WHERE Email = @Email.
+        /// </summary>
+        public static string GetUserByEmail {
+            get {
+                return ResourceManager.GetString("GetUserByEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to SELECT * FROM [User] WHERE UserName = @UserName.
         /// </summary>
         public static string GetUserByUserName {

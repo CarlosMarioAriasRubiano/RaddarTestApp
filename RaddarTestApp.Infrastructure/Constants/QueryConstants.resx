@@ -123,6 +123,9 @@
   <data name="GetProducts" xml:space="preserve">
     <value>SELECT * FROM Product</value>
   </data>
+  <data name="GetUserByEmail" xml:space="preserve">
+    <value>SELECT * FROM [User] WHERE Email = @Email</value>
+  </data>
   <data name="GetUserByUserName" xml:space="preserve">
     <value>SELECT * FROM [User] WHERE UserName = @UserName</value>
   </data>
